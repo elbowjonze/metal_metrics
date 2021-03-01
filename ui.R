@@ -1,3 +1,7 @@
+## how to republish app to shinyapp.io
+# library(rsconnect)
+# deployApp()
+
 #setwd('D:/R_files/shiny/metal_metrics')
 
 library(shiny)
@@ -7,6 +11,7 @@ library(ggplot2)
 library(googlesheets4)
 library(googledrive)
 library(tidyr)
+library(plyr)
 
 
 menuWidth=300 
